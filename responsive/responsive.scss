@@ -1,0 +1,377 @@
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+    #top {
+        .social_phone_email {
+
+            .container {
+                .col-md-12 {
+                    .nav {
+                        .nav-item {
+                            .nav-link {
+
+                                i {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .neveda_logo_section {
+            .container {
+                .col-md-12 {
+                    .navbar {
+                        .collapse {
+                            .navbar-nav {
+                                .nav-item {
+                                    margin-left: 0px !important;
+
+                                    .nav-link {}
+                                }
+                            }
+
+                            .form-inline {
+                                .form-control {}
+
+                                .search-icon {
+                                    margin-left: 250px;
+                                }
+                            }
+
+                            .basket {
+                                .fa-shopping-basket {}
+
+                                .badge {
+                                    margin-top: 12px;
+                                }
+                            }
+
+                            .navbar-toggler-icon {}
+                        }
+                    }
+                }
+            }
+        }
+
+        .men_fashion {
+            .container {
+                .man_casual {
+                    .card {
+                        height: 420px;
+                        margin-right: 0 !important;
+                        border: none;
+                        // width: 470px;
+                        border-radius: 0;
+                        background-color: #f3f3f3;
+
+                        i {
+                            bottom: 0;
+                            top: 0;
+                            left: 50px;
+                            color: rgb(255, 255, 255);
+                            font-size: 12px;
+                            height: 55px;
+                            line-height: 55px;
+                            margin-left: -50px;
+                            position: absolute;
+                            right: 27px;
+                            text-align: center;
+                            transform: rotate(-91deg);
+                            width: 55px;
+                            // border-bottom: 50px solid #000;
+                            // border-left: 50px solid transparent;
+                            background: none 0px 0px repeat scroll rgb(0, 0, 0);
+
+                            span {
+                                width: 55px;
+                                transform: rotate(90deg);
+                                display: block;
+                                font-size: 20px;
+                            }
+                        }
+
+                        .card-img {
+                            object-fit: cover;
+                        }
+
+                        .card-img-overlay {
+                            .all_text {
+                                margin-top: 3em;
+
+                                .man_text {
+                                    font-size: 30px;
+                                    font-family: inherit;
+                                    font-style: inherit;
+                                    font-weight: inherit;
+                                }
+
+                                .fashion_text {
+                                    font-size: 30px;
+                                    font-family: inherit;
+                                    font-style: inherit;
+                                    font-weight: inherit;
+                                    color: #636363;
+                                }
+
+                                .lead {
+                                    color: #333333;
+                                }
+
+                                .card-text {
+                                    color: #333333;
+                                    width: 180px;
+                                    font-size: 18px;
+                                }
+
+                                a {
+                                    .btn {
+                                        font-weight: 400;
+                                        width: 8em;
+                                        background-color: #000;
+                                        border-radius: 0;
+                                        padding: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .bag_shoes {
+                    margin-top: 10px;
+
+                    .topRow {
+                        .left {
+                            .new_sale {
+                                background-color: #000;
+                                position: absolute;
+                                width: 40px;
+                                font-size: 19px;
+                                font-style: italic;
+                                height: 40px;
+                                text-align: center;
+                                padding-top: 4px;
+                                z-index: 1;
+                                color: white;
+
+
+                                span {}
+                            }
+
+                            .card {
+                                border-radius: 0;
+                                border: none;
+                                background-color: #f3f3f3;
+                                width: 100%;
+                                height: auto;
+
+                                .card-img {
+                                    object-fit: none;
+                                    margin-top: 100px;
+                                }
+
+
+                                .card-img-overlay {
+                                    .card-title {
+                                        font-size: 16px;
+                                        margin-top: 30px;
+                                        text-align: center;
+                                        font-style: inherit;
+                                        font-weight: 600;
+                                        font-size: inherit;
+                                        text-transform: uppercase;
+                                    }
+                                }
+                            }
+                        }
+
+                        .right {
+                            margin-top: 10px;
+
+                            .new_sale {
+                                background-color: #000;
+                                position: absolute;
+                                width: 40px;
+                                font-size: 19px;
+                                font-style: italic;
+                                height: 40px;
+                                text-align: center;
+                                padding-top: 4px;
+                                z-index: 1;
+                                color: white;
+
+                                span {}
+                            }
+
+                            .card {
+                                border-radius: 0;
+                                border: none;
+                                background-color: #f3f3f3;
+                                width: 100%;
+                                height: auto;
+
+                                .card-img {
+                                    object-fit: none;
+                                    margin-top: 100px;
+                                }
+
+
+                                .card-img-overlay {
+                                    .card-title {
+                                        margin-top: 15px;
+                                        text-align: center;
+                                        font-style: inherit;
+                                        font-weight: 600;
+                                        font-size: inherit;
+                                        text-transform: uppercase;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .bottomRow {
+                        margin-top: 10px;
+
+                        .col-md-12 {
+                            .card {
+                                border: none;
+                                border-radius: 0;
+                                background-color: #f3f3f3;
+                                width: 100%;
+                                height: 283px;
+
+                                i {
+                                    background-color: #000;
+                                    position: absolute;
+                                    width: 40px;
+                                    font-size: 19px;
+                                    font-style: italic;
+                                    height: 40px;
+                                    text-align: center;
+                                    padding-top: 4px;
+
+                                    span {}
+                                }
+
+                                .row {
+                                    margin-top: 25px;
+
+                                    .left {
+
+                                        .resp-sm {
+                                            display: block;
+
+                                            .row {
+
+                                                .left {
+                                                    .card-body {
+                                                        margin-top: 0 !important;
+
+                                                        .card-title {
+                                                            font-size: 18px;
+
+                                                        }
+
+                                                        .card-text {
+                                                            font-size: 14px;
+                                                        }
+                                                    }
+                                                }
+
+                                                .img-right {
+                                                    .card-img {
+                                                        width: 100%;
+                                                        height: 216px;
+                                                        object-fit: cover;
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                        .resp-sm-none {
+                                            display: none;
+                                        }
+
+
+                                    }
+
+                                    .right {
+                                        display: none;
+
+                                        .card-img {
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            object-fit: contain;
+                                            height: 258px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #middle {
+        margin-top: 100px;
+
+        .about_us {
+            .container-fluid {
+                .row {
+                    .img {}
+
+                    .text {
+                        background-color: #f3f3f3;
+                        width: 100%;
+                        height: 430px;
+
+                        .card {
+                            width: 100%;
+                            height: 430px;
+                            border-radius: 0;
+                            font-family: inherit;
+                            font-style: inherit;
+                            background-color: #f3f3f3;
+
+                            padding: 25px 30px 25px 30px;
+
+                            .card-title {
+                                font-family: inherit;
+                                font-style: inherit;
+                                font-weight: 700;
+                            }
+
+                            .shop_text {
+                                font-family: inherit;
+                                font-style: inherit;
+                                font-weight: 600;
+                            }
+
+                            .lead {
+                                font-family: inherit;
+                                font-style: inherit;
+                                font-size: 16px;
+                            }
+
+                            .img-fluid {
+                                width: 150px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) {}

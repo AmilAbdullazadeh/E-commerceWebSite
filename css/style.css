@@ -1,1 +1,291 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+#top .social_phone_email {
+  background-color: #333333;
+}
+
+#top .social_phone_email .container .col-md-12 .nav .nav-item .nav-link {
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+}
+
+#top .social_phone_email .container .col-md-12 .nav .nav-item .nav-link i {
+  color: #fff;
+}
+
+#top .neveda_logo_section .container .col-md-12 .navbar .collapse .navbar-nav .nav-item .nav-link {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#top .neveda_logo_section .container .col-md-12 .navbar .collapse .form-inline .form-control {
+  border-radius: 0 !important;
+  border: 1px solid gray;
+}
+
+#top .neveda_logo_section .container .col-md-12 .navbar .collapse .form-inline .search-icon {
+  position: absolute;
+  margin-left: 175px;
+  color: gray;
+}
+
+#top .neveda_logo_section .container .col-md-12 .navbar .collapse .basket .fa-shopping-basket {
+  font-size: 18px;
+}
+
+#top .neveda_logo_section .container .col-md-12 .navbar .collapse .basket .badge {
+  font-size: 10px;
+  position: absolute;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#top .neveda_logo_section .container .col-md-12 .navbar .collapse .navbar-toggler-icon {
+  color: gray;
+}
+
+#top .men_fashion .container .man_casual .card {
+  height: 573px;
+  margin-right: 0 !important;
+  border: none;
+  border-radius: 0;
+  background-color: #f3f3f3;
+}
+
+#top .men_fashion .container .man_casual .card i {
+  bottom: 0;
+  top: 0;
+  left: 50px;
+  color: white;
+  font-size: 12px;
+  height: 55px;
+  line-height: 55px;
+  margin-left: -50px;
+  position: absolute;
+  right: 27px;
+  text-align: center;
+  -webkit-transform: rotate(-91deg);
+          transform: rotate(-91deg);
+  width: 55px;
+  background: none 0px 0px repeat scroll black;
+}
+
+#top .men_fashion .container .man_casual .card i span {
+  width: 55px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  display: block;
+  font-size: 20px;
+}
+
+#top .men_fashion .container .man_casual .card .card-img {
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+#top .men_fashion .container .man_casual .card .card-img-overlay .all_text {
+  margin-top: 6em;
+}
+
+#top .men_fashion .container .man_casual .card .card-img-overlay .all_text .man_text {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+#top .men_fashion .container .man_casual .card .card-img-overlay .all_text .fashion_text {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: #636363;
+}
+
+#top .men_fashion .container .man_casual .card .card-img-overlay .all_text .lead {
+  color: #333333;
+  margin-top: 1em;
+}
+
+#top .men_fashion .container .man_casual .card .card-img-overlay .all_text .card-text {
+  color: #333333;
+  width: 180px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#top .men_fashion .container .man_casual .card .card-img-overlay .all_text a .btn {
+  font-weight: 400;
+  width: 8em;
+  background-color: #000;
+  border-radius: 0;
+  padding: 10px;
+}
+
+#top .men_fashion .container .bag_shoes .topRow .left .new_sale {
+  background-color: #000;
+  position: absolute;
+  width: 40px;
+  font-size: 19px;
+  font-style: italic;
+  height: 40px;
+  text-align: center;
+  padding-top: 4px;
+  z-index: 1;
+  color: white;
+}
+
+#top .men_fashion .container .bag_shoes .topRow .left .card {
+  border-radius: 0;
+  border: none;
+  background-color: #f3f3f3;
+  width: 255px;
+  height: 280px;
+}
+
+#top .men_fashion .container .bag_shoes .topRow .left .card .card-img {
+  -o-object-fit: none;
+     object-fit: none;
+  margin-top: 100px;
+}
+
+#top .men_fashion .container .bag_shoes .topRow .left .card .card-img-overlay .card-title {
+  font-size: 16px;
+  margin-top: 30px;
+  text-align: center;
+  font-style: inherit;
+  font-weight: 600;
+  font-size: inherit;
+  text-transform: uppercase;
+}
+
+#top .men_fashion .container .bag_shoes .topRow .right .new_sale {
+  background-color: #000;
+  position: absolute;
+  width: 40px;
+  font-size: 19px;
+  font-style: italic;
+  height: 40px;
+  text-align: center;
+  padding-top: 4px;
+  z-index: 1;
+  color: white;
+}
+
+#top .men_fashion .container .bag_shoes .topRow .right .card {
+  border-radius: 0;
+  border: none;
+  background-color: #f3f3f3;
+  width: 255px;
+  height: 280px;
+}
+
+#top .men_fashion .container .bag_shoes .topRow .right .card .card-img {
+  -o-object-fit: none;
+     object-fit: none;
+  margin-top: 100px;
+}
+
+#top .men_fashion .container .bag_shoes .topRow .right .card .card-img-overlay .card-title {
+  margin-top: 15px;
+  text-align: center;
+  font-style: inherit;
+  font-weight: 600;
+  font-size: inherit;
+  text-transform: uppercase;
+}
+
+#top .men_fashion .container .bag_shoes .bottomRow {
+  margin-top: 10px;
+}
+
+#top .men_fashion .container .bag_shoes .bottomRow .col-md-12 .card {
+  border: none;
+  border-radius: 0;
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 283px;
+}
+
+#top .men_fashion .container .bag_shoes .bottomRow .col-md-12 .card i {
+  background-color: #000;
+  position: absolute;
+  width: 40px;
+  font-size: 19px;
+  font-style: italic;
+  height: 40px;
+  text-align: center;
+  padding-top: 4px;
+}
+
+#top .men_fashion .container .bag_shoes .bottomRow .col-md-12 .card .row {
+  margin-top: 25px;
+}
+
+#top .men_fashion .container .bag_shoes .bottomRow .col-md-12 .card .row .left .resp-sm {
+  display: none;
+}
+
+#top .men_fashion .container .bag_shoes .bottomRow .col-md-12 .card .row .left .card-body {
+  margin-top: 25px;
+}
+
+#top .men_fashion .container .bag_shoes .bottomRow .col-md-12 .card .row .left .card-body .card-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#top .men_fashion .container .bag_shoes .bottomRow .col-md-12 .card .row .left .card-body .card-text {
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 25px;
+  letter-spacing: 1px;
+}
+
+#top .men_fashion .container .bag_shoes .bottomRow .col-md-12 .card .row .right .card-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 258px;
+}
+
+#middle {
+  margin-top: 100px;
+}
+
+#middle .about_us .container-fluid .row .text {
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 430px;
+}
+
+#middle .about_us .container-fluid .row .text .card {
+  width: 100%;
+  height: 430px;
+  border-radius: 0;
+  font-family: inherit;
+  font-style: inherit;
+  background-color: #f3f3f3;
+  padding: 25px 30px 25px 30px;
+}
+
+#middle .about_us .container-fluid .row .text .card .card-title {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: 700;
+}
+
+#middle .about_us .container-fluid .row .text .card .shop_text {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: 600;
+}
+
+#middle .about_us .container-fluid .row .text .card .lead {
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 16px;
+}
+
+#middle .about_us .container-fluid .row .text .card .img-fluid {
+  width: 150px !important;
+}
+/*# sourceMappingURL=style.css.map */
