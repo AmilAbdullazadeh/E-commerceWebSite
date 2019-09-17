@@ -316,21 +316,23 @@
     }
 
     #middle {
-        margin-top: 100px;
+        margin-top: 30px;
 
         .about_us {
             .container-fluid {
                 .row {
-                    .img {}
+                    .img {
+                        padding: 0;
+                    }
 
                     .text {
                         background-color: #f3f3f3;
                         width: 100%;
-                        height: 430px;
+                        height: 650px;
 
                         .card {
                             width: 100%;
-                            height: 430px;
+                            height: 650px;
                             border-radius: 0;
                             font-family: inherit;
                             font-style: inherit;
@@ -339,12 +341,14 @@
                             padding: 25px 30px 25px 30px;
 
                             .card-title {
+                                font-size: 24px;
                                 font-family: inherit;
                                 font-style: inherit;
                                 font-weight: 700;
                             }
 
                             .shop_text {
+                                font-size: 16px;
                                 font-family: inherit;
                                 font-style: inherit;
                                 font-weight: 600;
@@ -353,12 +357,106 @@
                             .lead {
                                 font-family: inherit;
                                 font-style: inherit;
-                                font-size: 16px;
+                                font-size: 15px;
                             }
 
                             .img-fluid {
                                 width: 150px !important;
                             }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #bottom {
+
+        .address_contact {
+            .container {
+
+                .row {
+                    width: 100%;
+
+                    .col-md-3 {
+
+                        h1 {}
+
+                        p {
+
+                            a {}
+                        }
+
+                        ul {
+
+                            li {}
+                        }
+
+                        small {}
+
+                        form {
+
+                            .form-group {
+                                .form-control {}
+
+                                i {
+                                    position: absolute;
+                                    bottom: 22px;
+                                    font-size: 18px;
+                                    right: 70px;
+                                }
+                            }
+                        }
+
+                        .address {
+
+                            i {}
+                        }
+
+                        .email {
+
+                            i {}
+                        }
+
+                        .phone {
+                            i {}
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .social {
+            .container {
+                .row {
+                    .left-col {
+                        text-align: center;
+                        margin: 15px 0;
+
+                        .social-col {
+                            span {
+                                padding: 0 5px !important;
+
+                                i {}
+                            }
+                        }
+                    }
+
+                    .middle-col {
+                        text-align: center;
+                        margin: 15px 0;
+
+                    }
+
+                    .right-col {
+                        text-align: center;
+                        margin: 15px 0;
+
+                        ul {
+                            justify-content: center;
+                        padding: 0 !important;
+
                         }
                     }
                 }

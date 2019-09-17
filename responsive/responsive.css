@@ -200,16 +200,19 @@
     height: 258px;
   }
   #middle {
-    margin-top: 100px;
+    margin-top: 30px;
+  }
+  #middle .about_us .container-fluid .row .img {
+    padding: 0;
   }
   #middle .about_us .container-fluid .row .text {
     background-color: #f3f3f3;
     width: 100%;
-    height: 430px;
+    height: 650px;
   }
   #middle .about_us .container-fluid .row .text .card {
     width: 100%;
-    height: 430px;
+    height: 650px;
     border-radius: 0;
     font-family: inherit;
     font-style: inherit;
@@ -217,11 +220,13 @@
     padding: 25px 30px 25px 30px;
   }
   #middle .about_us .container-fluid .row .text .card .card-title {
+    font-size: 24px;
     font-family: inherit;
     font-style: inherit;
     font-weight: 700;
   }
   #middle .about_us .container-fluid .row .text .card .shop_text {
+    font-size: 16px;
     font-family: inherit;
     font-style: inherit;
     font-weight: 600;
@@ -229,10 +234,40 @@
   #middle .about_us .container-fluid .row .text .card .lead {
     font-family: inherit;
     font-style: inherit;
-    font-size: 16px;
+    font-size: 15px;
   }
   #middle .about_us .container-fluid .row .text .card .img-fluid {
     width: 150px !important;
+  }
+  #bottom .address_contact .container .row {
+    width: 100%;
+  }
+  #bottom .address_contact .container .row .col-md-3 form .form-group i {
+    position: absolute;
+    bottom: 22px;
+    font-size: 18px;
+    right: 70px;
+  }
+  #bottom .social .container .row .left-col {
+    text-align: center;
+    margin: 15px 0;
+  }
+  #bottom .social .container .row .left-col .social-col span {
+    padding: 0 5px !important;
+  }
+  #bottom .social .container .row .middle-col {
+    text-align: center;
+    margin: 15px 0;
+  }
+  #bottom .social .container .row .right-col {
+    text-align: center;
+    margin: 15px 0;
+  }
+  #bottom .social .container .row .right-col ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0 !important;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
