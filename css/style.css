@@ -288,6 +288,56 @@
   color: #ffffff;
 }
 
+#top .blog_sidebar {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(5, 5, 5, 0.835)), to(rgba(71, 68, 71, 0.719))), url("../img/titlebar-img.png");
+  background-image: linear-gradient(to right, rgba(5, 5, 5, 0.835), rgba(71, 68, 71, 0.719)), url("../img/titlebar-img.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 15em;
+}
+
+#top .blog_sidebar .container {
+  width: 100%;
+  height: 15em;
+}
+
+#top .blog_sidebar .container .col-md-12 {
+  width: 100%;
+  height: 15em;
+  padding-top: 5em;
+}
+
+#top .blog_sidebar .container .col-md-12 h3 {
+  color: #dadbdf;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 33.33px;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 0.7px;
+}
+
+#top .blog_sidebar .container .col-md-12 nav {
+  background-color: transparent !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#top .blog_sidebar .container .col-md-12 nav .breadcrumb {
+  background-color: transparent !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #dadbdf;
+}
+
+#top .blog_sidebar .container .col-md-12 nav .breadcrumb .breadcrumb-item {
+  text-transform: capitalize;
+}
+
 #middle {
   margin-top: 70px;
 }
