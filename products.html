@@ -19,15 +19,925 @@
     <!-- FantAwsome -->
     <script src="https://kit.fontawesome.com/0804fe76b2.js"></script>
 
+    <!-- Slick slider -->
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick-1.8.1/slick/slick.css" />
+     <!-- Add the new slick-theme.css if you want the default styling -->
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick-1.8.1/slick/slick-theme.css" />
+
     <title>Products page</title>
 </head>
 
 <body>
 
+    <!-- Top Section -->
+    <div id="top">
+        <div class="social_phone_email">
+            <div class="container">
+                <div class="col-md-12">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="facebook.com">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="twitter.com">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pinterest.com">
+                                <i class="fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="instagram.com">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item phone-li ml-auto">
+                            <a class="nav-link" href="#">
+                                <i class="fas fa-phone-alt"></i>
+                                +994 77 777 77 77
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fas fa-envelope"></i>
+                                hr@yourdomain.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
+        <div class="neveda_logo_section mt-4">
+            <div class="container">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-light ">
+                        <a class="navbar-brand" href="index.html">
+                            <img class="img-fluid" src="img/Logo.png" alt="Logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#openMenu">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
 
+                        <div class="collapse navbar-collapse" id="openMenu">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item mr-4">
+                                    <a class="nav-link text-dark" href="">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="nav-item mr-4">
+                                    <a class="nav-link text-dark" href="">
+                                        Shop
+                                    </a>
+                                </li>
+                                <li class="nav-item mr-4">
+                                    <a class="nav-link text-dark" href="">
+                                        Blog
+                                    </a>
+                                </li>
+                                <li class="nav-item mr-4">
+                                    <a class="nav-link text-dark" href="">
+                                        Purchase
+                                    </a>
+                                </li>
+                            </ul>
 
+                            <form class="form-inline my-2 my-lg-0" action="">
+                                <input type="search" class="form-control mr-sm-2" placeholder="Search keyword"
+                                    aria-label="Search">
+                                <span class="search-icon"><i class="fas fa-search"></i></span>
+                            </form>
 
+                            <span class="basket ml-2">
+                                <i class="fas fa-shopping-basket"></i>
+                                <a href="#" class="badge badge-danger">0</a>
+                            </span>
+
+                            <a class="bars ml-4 text-dark" href="#">
+                                <i class="fas fa-bars"></i>
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="all_product">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>All products</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">
+                                T-shirt
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Middle Section -->
+    <div id="middle">
+        <div class="featured_product">
+            <div class="container">
+                <div class="top d-flex row">
+                    <div class="col-md-12">
+                        <div class="list_style">
+                            <span class="single_list">
+                                <a href="#">
+                                    <i class="fas fa-bars"></i>
+                                </a>
+                            </span>
+                            <span class="all_list active">
+                                <a href="#">
+                                    <i class="fas fa-th-large"></i>
+                                </a>
+                            </span>
+                            <div class="filter">
+                                <form action="">
+                                    <div class="form-group">
+                                        <select class="form-control" name="" id="">
+                                            <option value="">Defoult sorting</option>
+                                            <option value="">Popularity</option>
+                                            <option value="">Average Rating</option>
+                                            <option value="">Newness</option>
+                                        </select>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom row">
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="img/image1xxl-27.png" alt="Product img">
+                            <img class="hover_img" src="img/back4.jpeg" alt="Hover img">
+                            <span class="sold">
+                                Sold
+                            </span>
+                            <span id="basket" data-toggle="tooltip" , data-placement="left" , title="view cart" ,
+                                class="icons basket">
+                                <i class="fas fa-shopping-basket"></i>
+                            </span>
+                            <span id="view" data-toggle="tooltip" , data-placement="left" , title="quick view" ,
+                                class="icons view">
+                                <i class="fas fa-eye"></i>
+                            </span>
+                            <span id="heart" data-toggle="tooltip" , data-placement="left" , title="add to wishlist" ,
+                                class="icons heart">
+                                <i class="far fa-heart"></i>
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Blend Tank Vest In Black</h5>
+                                <p class="card-text">
+                                    Price : <del>$250</del> <span class="money">$150</span>
+                                </p>
+                            </div>
+                            <div class="row">
+                                <a href="">
+                                    <button class="btn">Add to cart</button>
+                                </a>
+                                <span class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="img/image1xxl-2.jpeg" alt="Product img">
+                            <img class="hover_img" src="img/back3.jpeg" alt="Hover img">
+                            <span class="sold">
+                                Sold
+                            </span>
+                            <span id="basket" data-toggle="tooltip" , data-placement="left" , title="view cart" ,
+                                class="icons basket">
+                                <i class="fas fa-shopping-basket"></i>
+                            </span>
+                            <span id="view" data-toggle="tooltip" , data-placement="left" , title="quick view" ,
+                                class="icons view">
+                                <i class="fas fa-eye"></i>
+                            </span>
+                            <span id="heart" data-toggle="tooltip" , data-placement="left" , title="add to wishlist" ,
+                                class="icons heart">
+                                <i class="far fa-heart"></i>
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Blend Tank Vest In Black</h5>
+                                <p class="card-text">
+                                    Price : <span class="money">$150</span>
+                                </p>
+                            </div>
+                            <div class="row">
+                                <a href="">
+                                    <button class="btn">Add to cart</button>
+                                </a>
+                                <span class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="img/image4xxl-2-1.jpeg" alt="Product img">
+                            <img class="hover_img" src="img/back3.jpeg" alt="Product img">
+
+                            <span class="sold">
+                                Sold
+                            </span>
+                            <span id="basket" data-toggle="tooltip" , data-placement="left" , title="view cart" ,
+                                class="icons basket">
+                                <i class="fas fa-shopping-basket"></i>
+                            </span>
+                            <span id="view" data-toggle="tooltip" , data-placement="left" , title="quick view" ,
+                                class="icons view">
+                                <i class="fas fa-eye"></i>
+                            </span>
+                            <span id="heart" data-toggle="tooltip" , data-placement="left" , title="add to wishlist" ,
+                                class="icons heart">
+                                <i class="far fa-heart"></i>
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Blend Tank Vest In Black</h5>
+                                <p class="card-text">
+                                    Price : <del>$250</del> <span class="money">$150</span>
+                                </p>
+                            </div>
+                            <div class="row">
+                                <a href="">
+                                    <button class="btn">Add to cart</button>
+                                </a>
+                                <span class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="img/image4xxl-3-1.jpeg" alt="Product img">
+                            <img class="hover_img" src="img/back4.jpeg" alt="Product img">
+
+                            <span class="sold">
+                                Sold
+                            </span>
+                            <span id="basket" data-toggle="tooltip" , data-placement="left" , title="view cart" ,
+                                class="icons basket">
+                                <i class="fas fa-shopping-basket"></i>
+                            </span>
+                            <span id="view" data-toggle="tooltip" , data-placement="left" , title="quick view" ,
+                                class="icons view">
+                                <i class="fas fa-eye"></i>
+                            </span>
+                            <span id="heart" data-toggle="tooltip" , data-placement="left" , title="add to wishlist" ,
+                                class="icons heart">
+                                <i class="far fa-heart"></i>
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Blend Tank Vest In Black</h5>
+                                <p class="card-text">
+                                    Price : <span class="money">$150</span>
+                                </p>
+                            </div>
+                            <div class="row">
+                                <a href="">
+                                    <button class="btn">Add to cart</button>
+                                </a>
+                                <span class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="img/image1xxl-27.png" alt="Product img">
+                            <img class="hover_img" src="img/back4.jpeg" alt="Hover img">
+                            <span class="sold">
+                                Sold
+                            </span>
+                            <span id="basket" data-toggle="tooltip" , data-placement="left" , title="view cart" ,
+                                class="icons basket">
+                                <i class="fas fa-shopping-basket"></i>
+                            </span>
+                            <span id="view" data-toggle="tooltip" , data-placement="left" , title="quick view" ,
+                                class="icons view">
+                                <i class="fas fa-eye"></i>
+                            </span>
+                            <span id="heart" data-toggle="tooltip" , data-placement="left" , title="add to wishlist" ,
+                                class="icons heart">
+                                <i class="far fa-heart"></i>
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Blend Tank Vest In Black</h5>
+                                <p class="card-text">
+                                    Price : <del>$250</del> <span class="money">$150</span>
+                                </p>
+                            </div>
+                            <div class="row">
+                                <a href="">
+                                    <button class="btn">Add to cart</button>
+                                </a>
+                                <span class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="img/image1xxl-2.jpeg" alt="Product img">
+                            <img class="hover_img" src="img/back3.jpeg" alt="Hover img">
+                            <span class="sold">
+                                Sold
+                            </span>
+                            <span id="basket" data-toggle="tooltip" , data-placement="left" , title="view cart" ,
+                                class="icons basket">
+                                <i class="fas fa-shopping-basket"></i>
+                            </span>
+                            <span id="view" data-toggle="tooltip" , data-placement="left" , title="quick view" ,
+                                class="icons view">
+                                <i class="fas fa-eye"></i>
+                            </span>
+                            <span id="heart" data-toggle="tooltip" , data-placement="left" , title="add to wishlist" ,
+                                class="icons heart">
+                                <i class="far fa-heart"></i>
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Blend Tank Vest In Black</h5>
+                                <p class="card-text">
+                                    Price : <span class="money">$150</span>
+                                </p>
+                            </div>
+                            <div class="row">
+                                <a href="">
+                                    <button class="btn">Add to cart</button>
+                                </a>
+                                <span class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="img/image4xxl-2-1.jpeg" alt="Product img">
+                            <img class="hover_img" src="img/back3.jpeg" alt="Product img">
+
+                            <span class="sold">
+                                Sold
+                            </span>
+                            <span id="basket" data-toggle="tooltip" , data-placement="left" , title="view cart" ,
+                                class="icons basket">
+                                <i class="fas fa-shopping-basket"></i>
+                            </span>
+                            <span id="view" data-toggle="tooltip" , data-placement="left" , title="quick view" ,
+                                class="icons view">
+                                <i class="fas fa-eye"></i>
+                            </span>
+                            <span id="heart" data-toggle="tooltip" , data-placement="left" , title="add to wishlist" ,
+                                class="icons heart">
+                                <i class="far fa-heart"></i>
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Blend Tank Vest In Black</h5>
+                                <p class="card-text">
+                                    Price : <del>$250</del> <span class="money">$150</span>
+                                </p>
+                            </div>
+                            <div class="row">
+                                <a href="">
+                                    <button class="btn">Add to cart</button>
+                                </a>
+                                <span class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="img/image4xxl-3-1.jpeg" alt="Product img">
+                            <img class="hover_img" src="img/back4.jpeg" alt="Product img">
+
+                            <span class="sold">
+                                Sold
+                            </span>
+                            <span id="basket" data-toggle="tooltip" , data-placement="left" , title="view cart" ,
+                                class="icons basket">
+                                <i class="fas fa-shopping-basket"></i>
+                            </span>
+                            <span id="view" data-toggle="tooltip" , data-placement="left" , title="quick view" ,
+                                class="icons view">
+                                <i class="fas fa-eye"></i>
+                            </span>
+                            <span id="heart" data-toggle="tooltip" , data-placement="left" , title="add to wishlist" ,
+                                class="icons heart">
+                                <i class="far fa-heart"></i>
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Blend Tank Vest In Black</h5>
+                                <p class="card-text">
+                                    Price : <span class="money">$150</span>
+                                </p>
+                            </div>
+                            <div class="row">
+                                <a href="">
+                                    <button class="btn">Add to cart</button>
+                                </a>
+                                <span class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="img/image1xxl-27.png" alt="Product img">
+                            <img class="hover_img" src="img/back4.jpeg" alt="Hover img">
+                            <span class="sold">
+                                Sold
+                            </span>
+                            <span id="basket" data-toggle="tooltip" , data-placement="left" , title="view cart" ,
+                                class="icons basket">
+                                <i class="fas fa-shopping-basket"></i>
+                            </span>
+                            <span id="view" data-toggle="tooltip" , data-placement="left" , title="quick view" ,
+                                class="icons view">
+                                <i class="fas fa-eye"></i>
+                            </span>
+                            <span id="heart" data-toggle="tooltip" , data-placement="left" , title="add to wishlist" ,
+                                class="icons heart">
+                                <i class="far fa-heart"></i>
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Blend Tank Vest In Black</h5>
+                                <p class="card-text">
+                                    Price : <del>$250</del> <span class="money">$150</span>
+                                </p>
+                            </div>
+                            <div class="row">
+                                <a href="">
+                                    <button class="btn">Add to cart</button>
+                                </a>
+                                <span class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="img/image1xxl-2.jpeg" alt="Product img">
+                            <img class="hover_img" src="img/back3.jpeg" alt="Hover img">
+                            <span class="sold">
+                                Sold
+                            </span>
+                            <span id="basket" data-toggle="tooltip" , data-placement="left" , title="view cart" ,
+                                class="icons basket">
+                                <i class="fas fa-shopping-basket"></i>
+                            </span>
+                            <span id="view" data-toggle="tooltip" , data-placement="left" , title="quick view" ,
+                                class="icons view">
+                                <i class="fas fa-eye"></i>
+                            </span>
+                            <span id="heart" data-toggle="tooltip" , data-placement="left" , title="add to wishlist" ,
+                                class="icons heart">
+                                <i class="far fa-heart"></i>
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Blend Tank Vest In Black</h5>
+                                <p class="card-text">
+                                    Price : <span class="money">$150</span>
+                                </p>
+                            </div>
+                            <div class="row">
+                                <a href="">
+                                    <button class="btn">Add to cart</button>
+                                </a>
+                                <span class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="img/image4xxl-2-1.jpeg" alt="Product img">
+                            <img class="hover_img" src="img/back3.jpeg" alt="Product img">
+
+                            <span class="sold">
+                                Sold
+                            </span>
+                            <span id="basket" data-toggle="tooltip" , data-placement="left" , title="view cart" ,
+                                class="icons basket">
+                                <i class="fas fa-shopping-basket"></i>
+                            </span>
+                            <span id="view" data-toggle="tooltip" , data-placement="left" , title="quick view" ,
+                                class="icons view">
+                                <i class="fas fa-eye"></i>
+                            </span>
+                            <span id="heart" data-toggle="tooltip" , data-placement="left" , title="add to wishlist" ,
+                                class="icons heart">
+                                <i class="far fa-heart"></i>
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Blend Tank Vest In Black</h5>
+                                <p class="card-text">
+                                    Price : <del>$250</del> <span class="money">$150</span>
+                                </p>
+                            </div>
+                            <div class="row">
+                                <a href="">
+                                    <button class="btn">Add to cart</button>
+                                </a>
+                                <span class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="img/image4xxl-3-1.jpeg" alt="Product img">
+                            <img class="hover_img" src="img/back4.jpeg" alt="Product img">
+
+                            <span class="sold">
+                                Sold
+                            </span>
+                            <span id="basket" data-toggle="tooltip" , data-placement="left" , title="view cart" ,
+                                class="icons basket">
+                                <i class="fas fa-shopping-basket"></i>
+                            </span>
+                            <span id="view" data-toggle="tooltip" , data-placement="left" , title="quick view" ,
+                                class="icons view">
+                                <i class="fas fa-eye"></i>
+                            </span>
+                            <span id="heart" data-toggle="tooltip" , data-placement="left" , title="add to wishlist" ,
+                                class="icons heart">
+                                <i class="far fa-heart"></i>
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Blend Tank Vest In Black</h5>
+                                <p class="card-text">
+                                    Price : <span class="money">$150</span>
+                                </p>
+                            </div>
+                            <div class="row">
+                                <a href="">
+                                    <button class="btn">Add to cart</button>
+                                </a>
+                                <span class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="img/image1xxl-27.png" alt="Product img">
+                            <img class="hover_img" src="img/back4.jpeg" alt="Hover img">
+                            <span class="sold">
+                                Sold
+                            </span>
+                            <span id="basket" data-toggle="tooltip" , data-placement="left" , title="view cart" ,
+                                class="icons basket">
+                                <i class="fas fa-shopping-basket"></i>
+                            </span>
+                            <span id="view" data-toggle="tooltip" , data-placement="left" , title="quick view" ,
+                                class="icons view">
+                                <i class="fas fa-eye"></i>
+                            </span>
+                            <span id="heart" data-toggle="tooltip" , data-placement="left" , title="add to wishlist" ,
+                                class="icons heart">
+                                <i class="far fa-heart"></i>
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Blend Tank Vest In Black</h5>
+                                <p class="card-text">
+                                    Price : <del>$250</del> <span class="money">$150</span>
+                                </p>
+                            </div>
+                            <div class="row">
+                                <a href="">
+                                    <button class="btn">Add to cart</button>
+                                </a>
+                                <span class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="img/image1xxl-2.jpeg" alt="Product img">
+                            <img class="hover_img" src="img/back3.jpeg" alt="Hover img">
+                            <span class="sold">
+                                Sold
+                            </span>
+                            <span id="basket" data-toggle="tooltip" , data-placement="left" , title="view cart" ,
+                                class="icons basket">
+                                <i class="fas fa-shopping-basket"></i>
+                            </span>
+                            <span id="view" data-toggle="tooltip" , data-placement="left" , title="quick view" ,
+                                class="icons view">
+                                <i class="fas fa-eye"></i>
+                            </span>
+                            <span id="heart" data-toggle="tooltip" , data-placement="left" , title="add to wishlist" ,
+                                class="icons heart">
+                                <i class="far fa-heart"></i>
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Blend Tank Vest In Black</h5>
+                                <p class="card-text">
+                                    Price : <span class="money">$150</span>
+                                </p>
+                            </div>
+                            <div class="row">
+                                <a href="">
+                                    <button class="btn">Add to cart</button>
+                                </a>
+                                <span class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="img/image4xxl-2-1.jpeg" alt="Product img">
+                            <img class="hover_img" src="img/back3.jpeg" alt="Product img">
+
+                            <span class="sold">
+                                Sold
+                            </span>
+                            <span id="basket" data-toggle="tooltip" , data-placement="left" , title="view cart" ,
+                                class="icons basket">
+                                <i class="fas fa-shopping-basket"></i>
+                            </span>
+                            <span id="view" data-toggle="tooltip" , data-placement="left" , title="quick view" ,
+                                class="icons view">
+                                <i class="fas fa-eye"></i>
+                            </span>
+                            <span id="heart" data-toggle="tooltip" , data-placement="left" , title="add to wishlist" ,
+                                class="icons heart">
+                                <i class="far fa-heart"></i>
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Blend Tank Vest In Black</h5>
+                                <p class="card-text">
+                                    Price : <del>$250</del> <span class="money">$150</span>
+                                </p>
+                            </div>
+                            <div class="row">
+                                <a href="">
+                                    <button class="btn">Add to cart</button>
+                                </a>
+                                <span class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="img/image4xxl-3-1.jpeg" alt="Product img">
+                            <img class="hover_img" src="img/back4.jpeg" alt="Product img">
+
+                            <span class="sold">
+                                Sold
+                            </span>
+                            <span id="basket" data-toggle="tooltip" , data-placement="left" , title="view cart" ,
+                                class="icons basket">
+                                <i class="fas fa-shopping-basket"></i>
+                            </span>
+                            <span id="view" data-toggle="tooltip" , data-placement="left" , title="quick view" ,
+                                class="icons view">
+                                <i class="fas fa-eye"></i>
+                            </span>
+                            <span id="heart" data-toggle="tooltip" , data-placement="left" , title="add to wishlist" ,
+                                class="icons heart">
+                                <i class="far fa-heart"></i>
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Blend Tank Vest In Black</h5>
+                                <p class="card-text">
+                                    Price : <span class="money">$150</span>
+                                </p>
+                            </div>
+                            <div class="row">
+                                <a href="">
+                                    <button class="btn">Add to cart</button>
+                                </a>
+                                <span class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Section -->
+    <div id="bottom">
+        <div class="address_contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h1>Contact</h1>
+                        <p>
+                            You are consenting to receive a reply with all the details. To ask a question or offer
+                            feedback
+                            relating to our event and programme, please <a class="click" href="#">click here.</a>
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h1>Information</h1>
+                        <ul>
+                            <li>New Collection</li>
+                            <li>Special product</li>
+                            <li>Instagram profile</li>
+                            <li>High-quality product</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h1>Newsletter !</h1>
+                        <small>Suffered alteration in some form by injected</small>
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="enter your own">
+                                <i class="fas fa-long-arrow-alt-right"></i>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-3">
+                        <h1>Addess</h1>
+                        <div class="address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <small>79 Orchard St, London, Ny 10002, United States</small>
+                        </div>
+                        <div class="email">
+                            <i class="fas fa-envelope"></i>
+                            <small>test@yourdomain.com</small>
+                        </div>
+                        <div class="phone">
+                            <i class="fas fa-phone-alt"></i>
+                            <small>+(994)704445544</small>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <div class="social">
+            <div class="container">
+                <div class="row">
+                    <div class="left-col col-md-4">
+                        <div class="social-col">
+                            <span>
+                                <i class="fab fa-facebook"></i>
+                            </span>
+                            <span>
+                                <i class="fab fa-instagram"></i>
+                            </span>
+                            <span>
+                                <i class="fab fa-twitter-square"></i>
+                            </span>
+                            <span>
+                                <i class="fab fa-google-plus"></i>
+                            </span>
+                            <span>
+                                <i class="fab fa-youtube-square"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="middle-col col-md-4">
+                        <span><i class="far fa-copyright"></i></span> <strong>2020 All rights reserved</strong>
+                    </div>
+                    <div class="right-col col-md-4">
+                        <ul>
+                            <li>
+                                <span>
+                                    <i class="fab fa-cc-visa"></i>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <i class="fab fa-cc-paypal"></i>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <i class="fas fa-money-check-alt"></i>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <i class="fab fa-bitcoin"></i>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -40,6 +950,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+
+    <!-- Slick slider -->
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script> -->
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <script type="text/javascript" src="slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script>
 
     <!-- JS -->
     <script src="js/main.js"></script>

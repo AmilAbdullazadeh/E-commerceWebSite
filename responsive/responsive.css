@@ -202,6 +202,25 @@
   #middle {
     margin-top: 30px;
   }
+  #middle .product_info .container .card .row .left-col .row .slider {
+    margin-left: 38px;
+  }
+  #middle .product_info .container .card .row .left-col .row .slider .card-img {
+    margin-bottom: 10px;
+  }
+  #middle .product_info .container .card .row .right-col {
+    margin-top: 35px;
+  }
+  #middle .product_info .container .card .row .right-col .card-title::after {
+    content: "";
+  }
+  #middle .product_info .container .card .row .right-col .options_text::after {
+    content: "";
+  }
+  #middle .product_info .container .card .row .right-col form .row .heart {
+    -webkit-transition: 0.35s all ease-in-out;
+    transition: 0.35s all ease-in-out;
+  }
   #middle .about_us .container-fluid .row .img {
     padding: 0;
   }

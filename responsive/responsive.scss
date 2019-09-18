@@ -318,6 +318,108 @@
     #middle {
         margin-top: 30px;
 
+
+        .product_info {
+
+            .container {
+
+                .card {
+
+                    .row {
+
+                        .left-col {
+
+                            .card-img {}
+
+                            .row {
+
+                                .slider {
+
+                                    margin-left: 38px;
+
+                                    .card-img {
+
+                                        margin-bottom: 10px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .right-col {
+
+                            margin-top: 35px;
+
+                            .card-title {
+
+                                &::after {
+
+                                    content: "";
+                                }
+                            }
+
+                            .money {
+
+                                .min_price {}
+
+                                .max_price {}
+                            }
+
+                            .card-text {}
+
+                            .options_text {
+
+                                &::after {
+
+                                    content: "";
+                                }
+                            }
+
+                            form {
+
+                                .size_text {}
+
+                                .size_select {}
+
+                                .color_text {}
+
+                                .color_select {}
+
+                                .required_text {}
+
+
+                                .form-group {
+
+                                    .quantity_text {}
+
+                                    .form-control {
+
+                                        option {}
+                                    }
+                                }
+
+                                .row {
+
+                                    .btn {
+
+                                        &:hover {}
+                                    }
+
+                                    .heart {
+
+                                        transition: 0.35s all ease-in-out;
+
+                                        &:hover {}
+
+                                        i {}
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
         .about_us {
             .container-fluid {
                 .row {
@@ -455,7 +557,7 @@
 
                         ul {
                             justify-content: center;
-                        padding: 0 !important;
+                            padding: 0 !important;
 
                         }
                     }

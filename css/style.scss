@@ -308,10 +308,329 @@
             }
         }
     }
+
+    .all_product {
+        background-color: #333333;
+
+        .row {
+            width: 100%;
+
+            .col-md-12 {
+                padding: 40px;
+
+                h1 {
+                    justify-content: center;
+                    color: #7c7c7c;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    font-size: 32px;
+                    text-align: center;
+                    margin-top: 30px;
+                }
+
+                nav {
+                    ol {
+                        justify-content: center;
+                        background-color: #333333;
+                        list-style: none;
+
+                        li {
+                            color: #ffffff !important;
+
+                            a {
+                                text-decoration: none;
+                                color: #ffffff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 #middle {
     margin-top: 70px;
+
+    .login_sec {
+
+        .container {
+
+            .row {
+
+                .col-md-12 {
+
+                    form {
+
+                        .form-group {
+
+                            .form-control {
+
+                                border: none;
+                                // color: #ffffff;
+                                border-radius: 0;
+                                background-color: #a2a2a2;
+                            }
+                        }
+
+                        .form-row {
+
+                            .form-group {
+
+                                .btn {
+
+                                    border: none;
+                                    border-radius: 0;
+                                }
+
+                                .form-check {
+
+                                    margin-top: 8px;
+                                }
+                            }
+                        }
+                    }
+
+                    .lost_password {
+
+                        a {
+
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .product_info {
+
+        .container {
+
+            .card {
+                border-radius: 0;
+                border: none;
+
+                .row {
+
+                    .left-col {
+
+                        .card-img {
+
+                            border-radius: 0;
+                            border: none;
+                            cursor: pointer;
+                        }
+
+                        .row {
+
+                            .slider {
+
+                                .card-img {
+
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+
+                    .right-col {
+
+                        .card-title {
+
+                            text-transform: capitalize;
+                            font-size: 26px;
+
+                            &::after {
+
+                                content: "";
+                                width: 35px;
+                                height: 2px;
+                                background-color: #d8d7d5;
+                                margin-bottom: 10px;
+                                display: block;
+                                margin-top: 7px;
+                            }
+                        }
+
+                        .money {
+
+                            font-size: 18px;
+                            color: #777777;
+                            font-weight: 600;
+
+                            .min_price {
+
+                                color: red;
+                                letter-spacing: 2px;
+                                margin-left: 8px;
+                            }
+
+                            .max_price {
+
+                                color: red;
+                                letter-spacing: 2px;
+                                margin-left: 8px;
+                            }
+                        }
+
+                        .card-text {
+
+                            color: #333333;
+                            font-weight: 200;
+                            margin: 30px 0;
+                            line-height: 30px;
+                        }
+
+                        .options_text {
+
+                            font-weight: 200;
+                            font-size: 18px;
+                            color: #a2a2a2;
+
+                            &::after {
+
+                                content: "";
+                                width: 25px;
+                                height: 1px;
+                                background-color: #d8d7d5;
+                                margin-bottom: 10px;
+                                display: block;
+                                margin-top: 7px;
+                            }
+                        }
+
+                        form {
+
+                            .size_text {
+
+                                font-weight: 200;
+                                font-size: 18px;
+                                color: #a2a2a2;
+
+                            }
+
+                            .size_select {
+
+                                cursor: pointer;
+                                font-weight: 200;
+                                font-size: 16px;
+                                color: #a2a2a2;
+                                border-radius: 0;
+                            }
+
+                            .color_text {
+
+                                margin-top: 20px;
+
+                                font-weight: 200;
+                                font-size: 18px;
+                                color: #a2a2a2;
+                            }
+
+                            .color_select {
+
+                                cursor: pointer;
+                                font-weight: 200;
+                                font-size: 16px;
+                                color: #a2a2a2;
+                                border-radius: 0 !important;
+                            }
+
+                            .required_text {
+
+                                margin-top: 25px;
+                                text-transform: capitalize;
+                                font-weight: 200;
+                                font-size: 19px;
+                                color: #a2a2a2;
+                            }
+
+
+                            .form-group {
+                                display: flex;
+                                margin-top: 20px;
+
+                                .quantity_text {
+
+                                    margin-bottom: 0;
+                                    margin-right: 25px;
+                                    margin-top: 4px;
+                                    font-weight: 200;
+                                    font-size: 18px;
+                                    color: #a2a2a2;
+                                }
+
+                                .form-control {
+
+                                    cursor: pointer;
+                                    width: 65px;
+                                    height: 37px;
+                                    border-radius: 0;
+
+                                    option {}
+                                }
+                            }
+
+                            .row {
+
+                                padding: 0 16px;
+
+                                .btn {
+
+                                    width: 120px;
+                                    height: 38px;
+                                    margin-right: 20px;
+                                    margin-top: 25px;
+                                    border: 1px solid;
+                                    border-radius: 0;
+                                    font-weight: 600;
+                                    color: #a2a2a2;
+                                    transition: 0.35s all ease-in-out;
+
+                                    &:hover {
+
+                                        color: #ffffff;
+                                        background-color: #a2a2a2;
+                                    }
+                                }
+
+                                .heart {
+
+                                    margin-top: 24px;
+                                    width: 50px;
+                                    height: 40px;
+                                    border: 1px solid;
+                                    border-radius: 0;
+                                    background-color: #333333;
+                                    color: #ffffff;
+                                    cursor: pointer;
+                                    transition: 0.35s all ease-in-out;
+
+
+                                    &:hover {
+
+                                        background-color: #ffffff;
+                                        color: #333333;
+                                    }
+
+                                    i {
+
+                                        position: absolute;
+                                        margin-top: 12px;
+                                        margin-left: 16px;
+                                    }
+                                }
+
+                            }
+
+                        }
+                    }
+                }
+
+            }
+        }
+    }
 
     .about_us {
         .container-fluid {
@@ -370,6 +689,98 @@
             .top {
                 width: 100%;
                 height: auto;
+
+                .col-md-12 {
+
+                    .related_products {
+
+                        h2 {
+                            text-transform: capitalize;
+                            font-weight: 700;
+                            font-size: 26px;
+
+                            &::after {
+
+                                content: "";
+                                width: 35px;
+                                height: 2px;
+                                background-color: #d8d7d5;
+                                display: block;
+                                margin-top: 15px;
+                            }
+                        }
+
+                    }
+
+                    .list_style {
+
+                        .single_list {
+                            border: 1px solid white;
+                            box-shadow: -2px 3px 6px -2px;
+                            background: border-box;
+                            padding-left: 5px;
+                            margin-right: 5px;
+
+                            a {
+                                text-decoration: none;
+
+                                i {
+                                    color: #000000 !important;
+
+                                }
+                            }
+
+                        }
+
+                        .active {
+                            color: #333333 !important;
+                        }
+
+                        .all_list {
+                            border: 1px solid white;
+                            -webkit-box-shadow: -2px 3px 6px -2px;
+                            box-shadow: -2px 3px 6px -2px;
+                            background: border-box;
+                            padding-left: 5px;
+                            padding-right: 5px;
+
+                            a {
+                                text-decoration: none;
+
+                                i {
+                                    color: #000000 !important;
+
+                                }
+                            }
+                        }
+
+                        .filter {
+                            display: inline-block;
+                            margin-left: 25px;
+
+                            form {
+
+                                .form-group {
+
+                                    .form-control {
+                                        cursor: pointer;
+                                        border: none;
+                                        border-radius: 0;
+                                        background-color: #f3f3f3;
+                                        color: #515151;
+                                        font-weight: 600;
+
+                                        option {
+
+                                            font-weight: 600;
+
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
 
                 span {
                     width: 100%;
@@ -439,6 +850,7 @@
                 margin-top: 50px;
 
                 .col-md-3 {
+                    margin-bottom: 40px;
 
                     .card {
                         border: none;
