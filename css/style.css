@@ -1013,6 +1013,158 @@
   margin-right: 10px;
 }
 
+#middle .blog_sec .container .col-md-4 .title h4 {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+#middle .blog_sec .container .col-md-4 .title h4::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background-color: #d8d7d5;
+  margin-top: 10px;
+  position: absolute;
+}
+
+#middle .blog_sec .container .col-md-4 .category {
+  margin-top: 25px;
+}
+
+#middle .blog_sec .container .col-md-4 .category a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: inherit;
+}
+
+#middle .blog_sec .container .col-md-4 .category a h5 {
+  margin-bottom: 3px;
+  font-style: inherit;
+  font-family: inherit;
+}
+
+#middle .blog_sec .container .col-md-4 .card {
+  border-radius: 0;
+  border: none;
+  margin-top: 35px;
+}
+
+#middle .blog_sec .container .col-md-4 .card .row .left .card-img {
+  border-radius: 0;
+  cursor: pointer;
+  width: 125px;
+  height: auto;
+}
+
+#middle .blog_sec .container .col-md-4 .card .row .right .card-body {
+  padding: 15px 0;
+}
+
+#middle .blog_sec .container .col-md-4 .card .row .right .card-body .card-title {
+  color: #515151;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+#middle .blog_sec .container .col-md-4 .card .row .right .card-body .card-text .views_border {
+  border: 1px solid #a2a2a2;
+  border-radius: 0;
+  padding: 0px 4px;
+}
+
+#middle .blog_sec .container .col-md-8 .card {
+  border-radius: 0;
+  border: none;
+}
+
+#middle .blog_sec .container .col-md-8 .card .card-img-top {
+  border-radius: 0;
+  cursor: pointer;
+  -webkit-transition: 0.35s all ease-in-out;
+  transition: 0.35s all ease-in-out;
+}
+
+#middle .blog_sec .container .col-md-8 .card .card-img-top:hover {
+  -webkit-filter: blur(3px) grayscale(1);
+          filter: blur(3px) grayscale(1);
+}
+
+#middle .blog_sec .container .col-md-8 .card .card-body a {
+  font-family: inherit;
+  color: inherit;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#middle .blog_sec .container .col-md-8 .card .card-body a .lead {
+  font-size: 16px;
+  font: -webkit-small-control;
+  letter-spacing: 0.3px;
+}
+
+#middle .blog_sec .container .col-md-8 .card .card-body blockquote {
+  background-color: #f6f6f6;
+  padding: 10px 30px;
+}
+
+#middle .blog_sec .container .col-md-8 .card .card-body blockquote p {
+  font-style: italic;
+  font-weight: 200;
+  font-family: inherit;
+  position: relative;
+  text-align: center;
+}
+
+#middle .blog_sec .container .col-md-8 .card .card-body blockquote i {
+  font-size: 25px;
+  width: 100%;
+  color: #636363;
+}
+
+#middle .blog_sec .container .col-md-8 .card .card-body blockquote .fa-quote-left {
+  text-align: left;
+  margin-bottom: 13px;
+}
+
+#middle .blog_sec .container .col-md-8 .card .card-body blockquote .fa-quote-right {
+  text-align: right;
+}
+
+#middle .blog_sec .container .col-md-8 .card .card-body .l-height {
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+#middle .blog_sec .container .col-md-8 .card .card-body .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#middle .blog_sec .container .col-md-8 .card .card-body .icons .text-muted small i {
+  margin-right: 3px;
+}
+
+#middle .blog_sec .container .col-md-8 .card .card-body .icons .left {
+  margin-right: 15px;
+}
+
+#middle .blog_sec .container .col-md-8 .card .card-body a .btn-dark {
+  font-weight: 200;
+  font-family: inherit;
+  font-style: inherit;
+  border-radius: 0;
+  margin-top: 20px;
+  -webkit-transition: 0.35s all ease-in;
+  transition: 0.35s all ease-in;
+}
+
+#middle .blog_sec .container .col-md-8 .card .card-body a .btn-dark:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
 #bottom {
   margin-top: 70px;
   background-color: #f3f3f3;
@@ -1142,6 +1294,13 @@
   text-transform: uppercase;
   font-family: inherit;
   font-style: inherit;
+  -webkit-transition: 0.35s all ease-out;
+  transition: 0.35s all ease-out;
+  cursor: pointer;
+}
+
+#bottom .social .container .row .middle-col strong:hover {
+  color: rgba(226, 19, 47, 0.835);
 }
 
 #bottom .social .container .row .right-col ul {
@@ -1171,5 +1330,32 @@
 #bottom .social .container .row .right-col ul li span i {
   -webkit-transition: 0.35s all ease-in-out;
   transition: 0.35s all ease-in-out;
+}
+
+.gototop {
+  width: 50px;
+  height: 50px;
+  bottom: 46px;
+  right: 22px;
+  position: fixed;
+  background-color: #b6b5b5;
+  color: #ffffff;
+  z-index: 9999;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: 0.35s all ease-out;
+  transition: 0.35s all ease-out;
+}
+
+.gototop:hover {
+  bottom: 53px;
+}
+
+.gototop i {
+  font-size: 28px;
+  color: #ffffff;
+  padding-top: 11px;
+  font-size: 28px;
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
