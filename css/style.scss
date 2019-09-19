@@ -1296,235 +1296,239 @@
 
         .container {
 
-            .col-md-4 {
+            .row {
 
-                .title {
+                .mini_blog {
 
-                    h4 {
+                    .title {
 
-                        font-weight: 700;
-                        text-transform: capitalize;
+                        h4 {
 
-                        &::after {
+                            font-weight: 700;
+                            text-transform: capitalize;
 
-                            content: "";
-                            display: block;
-                            width: 40px;
-                            height: 2px;
-                            background-color: #d8d7d5;
-                            margin-top: 10px;
-                            position: absolute;
-                        }
-                    }
-                }
+                            &::after {
 
-                .category {
-
-                    margin-top: 25px;
-
-                    a {
-
-                        text-decoration: none;
-                        text-transform: capitalize;
-                        color: inherit;
-
-                        h5 {
-
-                            margin-bottom: 3px;
-                            font-style: inherit;
-                            font-family: inherit;
-                        }
-                    }
-                }
-
-                .card {
-
-                    border-radius: 0;
-                    border: none;
-                    margin-top: 35px;
-
-                    .row {
-
-                        .left {
-
-                            .card-img {
-
-                                border-radius: 0;
-                                cursor: pointer;
-                                width: 125px;
-                                height: auto;
-                            }
-                        }
-
-                        .right {
-
-                            .card-body {
-
-                                padding: 15px 0;
-
-                                .card-title {
-
-                                    color: #515151;
-                                    font-size: 14px;
-                                    text-transform: capitalize;
-                                }
-
-                                .card-text {
-
-                                    .views_border {
-
-                                        border: 1px solid #a2a2a2;
-                                        border-radius: 0;
-                                        padding: 0px 4px;
-                                    }
-                                }
+                                content: "";
+                                display: block;
+                                width: 40px;
+                                height: 2px;
+                                background-color: #d8d7d5;
+                                margin-top: 10px;
+                                position: absolute;
                             }
                         }
                     }
-                }
-            }
 
-            .col-md-8 {
+                    .category {
 
-                .card {
-
-                    border-radius: 0;
-                    border: none;
-
-                    .card-img-top {
-
-                        border-radius: 0;
-                        cursor: pointer;
-                        transition: 0.35s all ease-in-out;
-
-                        &:hover {
-
-                            filter: blur(3px) grayscale(1);
-                        }
-                    }
-
-                    .card-body {
+                        margin-top: 25px;
 
                         a {
 
-                            font-family: inherit;
-                            color: inherit;
-                            text-transform: uppercase;
                             text-decoration: none;
+                            text-transform: capitalize;
+                            color: inherit;
 
-                            .lead {
+                            h5 {
 
-                                font-size: 16px;
-                                font: -webkit-small-control;
-                                letter-spacing: 0.3px;
-                            }
-                        }
-
-                        h3 {}
-
-                        h5 {}
-
-                        .card-text {}
-
-                        ul {}
-
-                        blockquote {
-
-                            background-color: #f6f6f6;
-                            padding: 10px 30px;
-
-                            p {
-
-                                font-style: italic;
-                                font-weight: 200;
+                                margin-bottom: 3px;
+                                font-style: inherit;
                                 font-family: inherit;
-                                position: relative;
-                                text-align: center;
                             }
-
-                            i {
-
-                                font-size: 25px;
-                                width: 100%;
-                                color: #636363;
-                            }
-
-                            .fa-quote-left {
-
-                                text-align: left;
-                                margin-bottom: 13px;
-                            }
-
-                            .fa-quote-right {
-
-                                text-align: right;
-                            }
-
                         }
+                    }
 
-                        .l-height {
+                    .card {
 
-                            line-height: 30px;
-                            letter-spacing: 1px;
-                        }
+                        border-radius: 0;
+                        border: none;
+                        margin-top: 35px;
 
-                        .icons {
-
-                            display: flex;
-
-                            .text-muted {
-
-                                small {
-
-                                    i {
-                                        margin-right: 3px;
-                                    }
-
-                                    span {}
-                                }
-                            }
+                        .row {
 
                             .left {
 
-                                margin-right: 15px;
+                                .card-img {
 
-                                small {
-
-                                    i {}
-
-                                    span {}
+                                    border-radius: 0;
+                                    cursor: pointer;
+                                    width: 125px;
+                                    height: auto;
                                 }
                             }
 
-                            .right {}
+                            .right {
+
+                                .card-body {
+
+                                    padding: 15px 0;
+
+                                    .card-title {
+
+                                        color: #515151;
+                                        font-size: 14px;
+                                        text-transform: capitalize;
+                                    }
+
+                                    .card-text {
+
+                                        .views_border {
+
+                                            border: 1px solid #a2a2a2;
+                                            border-radius: 0;
+                                            padding: 0px 4px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .max_blog {
+
+                    .card {
+
+                        border-radius: 0;
+                        border: none;
+
+                        .card-img-top {
+
+                            border-radius: 0;
+                            cursor: pointer;
+                            transition: 0.35s all ease-in-out;
+
+                            &:hover {
+
+                                filter: blur(3px) grayscale(1);
+                            }
                         }
 
-                        a {
+                        .card-body {
 
-                            .btn-dark {
+                            a {
 
-                                font-weight: 200;
                                 font-family: inherit;
-                                font-style: inherit;
-                                border-radius: 0;
-                                margin-top: 20px;
-                                transition: 0.35s all ease-in;
+                                color: inherit;
+                                text-transform: uppercase;
+                                text-decoration: none;
 
-                                &:hover {
+                                .lead {
 
-                                    background: #ffffff;
-                                    color: #000000;
+                                    font-size: 16px;
+                                    font: -webkit-small-control;
+                                    letter-spacing: 0.3px;
                                 }
                             }
+
+                            h3 {}
+
+                            h5 {}
+
+                            .card-text {}
+
+                            ul {}
+
+                            blockquote {
+
+                                background-color: #f6f6f6;
+                                padding: 10px 30px;
+
+                                p {
+
+                                    font-style: italic;
+                                    font-weight: 200;
+                                    font-family: inherit;
+                                    position: relative;
+                                    text-align: center;
+                                }
+
+                                i {
+
+                                    font-size: 25px;
+                                    width: 100%;
+                                    color: #636363;
+                                }
+
+                                .fa-quote-left {
+
+                                    text-align: left;
+                                    margin-bottom: 13px;
+                                }
+
+                                .fa-quote-right {
+
+                                    text-align: right;
+                                }
+
+                            }
+
+                            .l-height {
+
+                                line-height: 30px;
+                                letter-spacing: 1px;
+                            }
+
+                            .icons {
+
+                                display: flex;
+
+                                .text-muted {
+
+                                    small {
+
+                                        i {
+                                            margin-right: 3px;
+                                        }
+
+                                        span {}
+                                    }
+                                }
+
+                                .left {
+
+                                    margin-right: 15px;
+
+                                    small {
+
+                                        i {}
+
+                                        span {}
+                                    }
+                                }
+
+                                .right {}
+                            }
+
+                            a {
+
+                                .btn-dark {
+
+                                    font-weight: 200;
+                                    font-family: inherit;
+                                    font-style: inherit;
+                                    border-radius: 0;
+                                    margin-top: 20px;
+                                    transition: 0.35s all ease-in;
+
+                                    &:hover {
+
+                                        background: #ffffff;
+                                        color: #000000;
+                                    }
+                                }
+                            }
+
+
                         }
-
-
                     }
                 }
             }
+
+
         }
     }
-
 }
 
 #bottom {
